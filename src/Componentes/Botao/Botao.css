@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Orbitron&family=Poppins:wght@100;200&family=Quicksand:wght@300;400&family=Roboto:wght@100;300;400&display=swap');
+
+
+button{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6278f7;
+    color: white;
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border: 1px solid #6278f7;
+    cursor: pointer;
+    margin: 1em 0 0 0;
+}
+
+button:active{
+    background-color: white;
+    color: #6278f7;
+    border: 1px solid #6278f7;
+}

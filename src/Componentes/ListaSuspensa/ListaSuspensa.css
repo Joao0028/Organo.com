@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Orbitron&family=Poppins:wght@100;200&family=Quicksand:wght@300;400&family=Roboto:wght@100;300;400&display=swap');
+
+.ListaSuspensa select{
+    width: 100%;
+    padding: 1em;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: -5px 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+select:focus{
+    border: 1px solid #6278f7;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.testo{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+option{
+    font-family: 'Poppins', sans-serif;
+
+}

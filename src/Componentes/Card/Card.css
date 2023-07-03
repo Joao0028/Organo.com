@@ -1,0 +1,68 @@
+.colaborador {
+    width: 280px;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.colaborador .cabecalho {
+    background-color:  #F0F0F0;
+    border-radius: 10px 10px 0px 0px;
+}
+.colaborador img {
+    width: 125px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.colaborador .rodape {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.colaborador .rodape h4 {
+    color: #D9a65e;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    word-break:break-all;
+}
+
+.colaborador .rodape h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding: 0 16px;
+}
+
+.DeletaPessoa{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.DeletaPessoa button{
+    background-color: transparent;
+    border: none;
+}
+
+.icon{
+    color: #C03535;
+    font-size: 35px;
+    background-color: #C03535;
+    color: white; 
+    border-radius: 100%;   
+}
+
+.DeletaPessoa:hover{
+    top: -14px;
+}
+
+.icon:active{
+    color: #C03535;
+    background-color: transparent;
+}
